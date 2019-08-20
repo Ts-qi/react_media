@@ -1,0 +1,57 @@
+.*
+
+.DS_Store
+.gradletasknamecache
+
+
+!.keep
+!.gitignore
+!.editorconfig
+!.eslintrc
+!.babelrc
+
+# node
+node_modules
+bower_components
+
+# ms doc/xls
+~$*.docx
+~$*.doc
+~$*.xls
+~$*.xlsx
+~$*.ppt
+~$*.pptx
+
+# logs
+log
+*.log
+
+#idea, mac
+.idea
+.DS_Store
+*.iml
+*.ipr
+*.iws
+*.class
+target
+out
+build
+classes
+
+# py
+*.pyc
+
+# logfile
+*.log
+*.log.zip
+yarn-error.log
+
+# office
+~$*
+
+# backup files
+projectFilesBackup
+
+#local files
+*.bak
+*.local
