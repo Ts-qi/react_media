@@ -1,8 +1,9 @@
 {
   "name": "tq_react_media",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react demo",
   "main": "lib/index.js",
+  "repository": "https://github.com/Ts-qi/react_media",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open development",
@@ -11,9 +12,9 @@
     "deploy": "gh-pages -d example/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react", "media"],
+  "author": "tiven",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
